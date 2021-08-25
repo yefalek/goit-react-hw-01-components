@@ -1,11 +1,11 @@
 import userData from './Profile/user.json';
-import User from './Profile/user';
+import Profile from './Profile/user';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <User
+      <Profile
         name={userData.name}
         tag={userData.tag}
         location={userData.location}
@@ -16,4 +16,3 @@ function App() {
   );
 }
 
-export default App;
