@@ -12,6 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* style for profile */
 .profile{
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -57,3 +58,6 @@ code {
   color: rgb(0, 0, 0);
     font-size: 20px;
 }
+
+/* style for Statistics */
+
