@@ -12,6 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul {
+  padding: 0;
+}
 /* style for profile */
 .profile{
   background-color: white;
@@ -41,12 +44,14 @@ code {
 
 .stats {
   display: flex;
+  justify-content: center;
   background-color: rgb(247, 235, 214);
 }
 .stats li{
   list-style-type:none;
   display: flex;
   flex-direction: column;
+  flex-basis: 80px;
   padding: 10px;
 }
 
@@ -60,4 +65,29 @@ code {
 }
 
 /* style for Statistics */
+.statistics{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
 
+.title{
+  padding: 20px 20px 0;
+  color: rgb(119, 119, 119);
+}
+
+.stat-list{
+  list-style-type:none;
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60px;
+  background-color: antiquewhite;
+}
