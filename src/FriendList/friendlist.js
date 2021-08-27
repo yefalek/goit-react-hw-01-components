@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import css from '../index.css';
 
 function FriendList({ friends }) {
     return (
