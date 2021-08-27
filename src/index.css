@@ -25,8 +25,8 @@ ul {
 .profile{
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  max-height: 556px;
+  max-width: 280px;
+  max-height: 470px;
   margin: 50px 20px 50px;
   text-align: center;
 }
@@ -110,6 +110,7 @@ ul {
 .friends-container{
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
   width: 300px;
   height: 420px;
   margin: 50px 20px 50px;
@@ -119,7 +120,7 @@ ul {
   list-style-type:none;
   display: flex;
   justify-content: start;
-  
+  min-width: 170px;
   margin: 0px 0px 10px;
   background-color: wheat;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -143,4 +144,34 @@ ul {
 
 .offline{
   background-color: red;
+}
+
+
+/* style for TransactionHistory */
+
+
+#transaction-history {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 670px;
+  margin: 50px 20px 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#transaction-history td, #transaction-history th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#transaction-history tr:nth-child(even){background-color: #f2f2f2;}
+
+#transaction-history tr:hover {background-color: #ddd;}
+
+#transaction-history th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
 }
