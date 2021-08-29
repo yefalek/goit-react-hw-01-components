@@ -19,19 +19,20 @@ function TransactionHistory({ items }) {
             <td>{currency}</td>
           </tr>
         ))}
-    
       </tbody>
     </table>
   );
 }
 
-TransactionHistory.propTypes = {stats: PropTypes.arrayOf(
-  PropTypes.shape({
+TransactionHistory.propTypes = {
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
       id: PropTypes.number.isRequired,
       type: PropTypes.string.isRequired,
       amount: PropTypes.number.isRequired,
       currency: PropTypes.string.isRequired,
-  }),
-),};
+    }),
+  ),
+};
 
 export default TransactionHistory;
